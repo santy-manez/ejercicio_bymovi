@@ -4,11 +4,11 @@ Guia para correr el ejercicio
 
 1 - Clonar el proyecto
 
-2 - Crear el archivo .env y configurar la conexion de base de datos con las credenciales que desee 
+2 - Ejecutar composer install
 
-3 - Crear la base de datos con su herramienta de preferencia y las credenciales definidas anteriormente
+3 - Copiar el archivo .env.example con el comando cp .env.example .env 
 
-4 - Ejecutar en consola el comando: composer install
+4 - Crear la base de datos con su herramienta de preferencia y las credenciales definidas anteriormente
 
 5 - Ejecutar en consola el comando: php artisan migrate:install
 
